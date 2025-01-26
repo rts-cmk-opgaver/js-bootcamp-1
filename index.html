@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 	<a href="#content" class="sr-hidden">Skip to content</a>
 	<header class="siteHeader">
-		<nav role="navigation">
+		<nav>
 			<a href="./" class="siteBrand">Verdens Bedste Hjemmeside</a>
 			<ul class="primaryNavigation">
 				<li class="primaryNavigation__navigationItem"><a href="#!">Link 1</a></li>
@@ -21,7 +23,7 @@
 		</nav>
 	</header>
 
-	<main role="main">
+	<main>
 		<article role="document">
 			<h1 class="article__heading">Totam maxime molestias itaque reiciendis eum voluptatibus</h1>
 			<time datetime="2018-08-15">Onsdag 15. august 2018</time>
@@ -66,15 +68,16 @@
 		</article>
 	</main>
 
-	<footer class="siteFooter" role="contentinfo">
-		<section class="siteFooter__section siteFooter__quote">
+	<footer class="siteFooter">
+		<section class="siteFooter__section siteFooter__quote" aria-labelledby="quote-headline">
+			<h2 id="quote-headline">Quote of the day</h2>
 			<blockquote>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident optio
 				omnis aliquid. Quam laudantium quia voluptatem commodi quidem, provident amet
-				reprehenderit sit	distinctio esse aperiam, libero fugiat aut blanditiis
+				reprehenderit sit distinctio esse aperiam, libero fugiat aut blanditiis
 				explicabo."</blockquote>
 		</section>
 
-		<section class="siteFooter__section siteFooter__contact">
+		<section class="siteFooter__section siteFooter__contact" aria-label="Contact adress">
 			<address>
 				<p>Verdens bedste hjemmeside</p>
 				<p>Hjemmesidevej 42</p>
@@ -84,7 +87,8 @@
 			</address>
 		</section>
 
-		<section class="siteFooter__section siteFooter__some">
+		<section class="siteFooter__section siteFooter__some" aria-labelledby="social-headline">
+			<h2 id="social-headline">Visit us on social media</h2>
 			<ul>
 				<li><i class="icon-facebook-squared"></i></li>
 				<li><i class="icon-twitter-squared"></i></li>
@@ -93,4 +97,5 @@
 		</section>
 	</footer>
 </body>
+
 </html>
