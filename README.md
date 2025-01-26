@@ -15,8 +15,10 @@ Du kan gøre brug af
 - Funktioner
 - Løkker
 
+Husk at lave dine ændringer på en branch
+
 ## Aflevering
-Aflevering foregår på GitHub. Push ofte og lav en pull-request, når du er klar til at aflevere.
+Aflevering foregår på GitHub. Push ofte og lav en pull-request til din egen main-branch, når du er klar til at aflevere.
 
 ### Tips
 Brug evt. Google til at søge efter citater.
